@@ -138,23 +138,27 @@ func (pr *Prover) UpdateLightClient() (core.Header, error) {
 	// create database connection
 	db, df, err := pr.NewLightDB()
 	if err != nil {
+		fmt.Println("============================== light client error 1")
 		return nil, lightError(err)
 	}
 	defer df()
 
 	client, err := pr.LightClient(db)
 	if err != nil {
+		fmt.Println("============================== light client error 2")
 		return nil, lightError(err)
 	}
 
 	sh, err := client.Update(context.Background(), time.Now())
 	if err != nil {
+		fmt.Println("============================== light client error 3")
 		return nil, lightError(err)
 	}
 
 	if sh == nil {
 		sh, err = client.TrustedLightBlock(0)
 		if err != nil {
+			fmt.Println("============================== light client error 4")
 			return nil, lightError(err)
 		}
 	}
