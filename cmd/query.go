@@ -9,9 +9,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
 	ibcexported "github.com/cosmos/ibc-go/v7/modules/core/exported"
-	"github.com/hyperledger-labs/yui-relayer/config"
-	"github.com/hyperledger-labs/yui-relayer/core"
-	"github.com/hyperledger-labs/yui-relayer/helpers"
+	"github.com/neoiss/yui-relayer/config"
+	"github.com/neoiss/yui-relayer/core"
+	"github.com/neoiss/yui-relayer/helpers"
 	"github.com/spf13/cobra"
 )
 

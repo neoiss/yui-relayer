@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 
-	"github.com/hyperledger-labs/yui-relayer/tests/chains/tendermint/simapp"
-	"github.com/hyperledger-labs/yui-relayer/tests/chains/tendermint/simapp/simd/cmd"
+	"github.com/neoiss/yui-relayer/tests/chains/tendermint/simapp"
+	"github.com/neoiss/yui-relayer/tests/chains/tendermint/simapp/simd/cmd"
 )
 
 func main() {

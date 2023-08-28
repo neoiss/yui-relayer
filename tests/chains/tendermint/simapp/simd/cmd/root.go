@@ -37,7 +37,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/cosmos/ibc-go/v7/testing/simapp/params"
-	"github.com/hyperledger-labs/yui-relayer/tests/chains/tendermint/simapp"
+	"github.com/neoiss/yui-relayer/tests/chains/tendermint/simapp"
 )
 
 // NewRootCmd creates a new root command for simd. It is called once in the

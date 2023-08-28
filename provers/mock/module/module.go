@@ -2,8 +2,8 @@ package module
 
 import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/hyperledger-labs/yui-relayer/config"
-	"github.com/hyperledger-labs/yui-relayer/provers/mock"
+	"github.com/neoiss/yui-relayer/config"
+	"github.com/neoiss/yui-relayer/provers/mock"
 	"github.com/spf13/cobra"
 )
 

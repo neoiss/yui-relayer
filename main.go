@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	tendermint "github.com/hyperledger-labs/yui-relayer/chains/tendermint/module"
-	"github.com/hyperledger-labs/yui-relayer/cmd"
-	mock "github.com/hyperledger-labs/yui-relayer/provers/mock/module"
+	tendermint "github.com/neoiss/yui-relayer/chains/tendermint/module"
+	"github.com/neoiss/yui-relayer/cmd"
+	mock "github.com/neoiss/yui-relayer/provers/mock/module"
 )
 
 func main() {

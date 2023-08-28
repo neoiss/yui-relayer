@@ -7,7 +7,7 @@ import (
 	"path"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/hyperledger-labs/yui-relayer/config"
+	"github.com/neoiss/yui-relayer/config"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

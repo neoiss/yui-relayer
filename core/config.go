@@ -6,7 +6,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/gogoproto/proto"
-	"github.com/hyperledger-labs/yui-relayer/utils"
+	"github.com/neoiss/yui-relayer/utils"
 )
 
 // ChainProverConfig defines the top level configuration for a chain instance

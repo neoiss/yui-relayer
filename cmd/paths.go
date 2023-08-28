@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hyperledger-labs/yui-relayer/config"
-	"github.com/hyperledger-labs/yui-relayer/core"
+	"github.com/neoiss/yui-relayer/config"
+	"github.com/neoiss/yui-relayer/core"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 )

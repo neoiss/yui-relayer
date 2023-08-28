@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/hyperledger-labs/yui-relayer/chains/tendermint"
-	"github.com/hyperledger-labs/yui-relayer/core"
+	"github.com/neoiss/yui-relayer/chains/tendermint"
+	"github.com/neoiss/yui-relayer/core"
 	"github.com/spf13/cobra"
 )
 

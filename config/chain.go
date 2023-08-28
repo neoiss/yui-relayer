@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 
-	"github.com/hyperledger-labs/yui-relayer/core"
+	"github.com/neoiss/yui-relayer/core"
 )
 
 type Chains []*core.ProvableChain

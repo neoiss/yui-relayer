@@ -10,7 +10,7 @@ import (
 	clienttypes "github.com/cosmos/ibc-go/v7/modules/core/02-client/types"
 
 	mocktypes "github.com/datachainlab/ibc-mock-client/modules/light-clients/xx-mock/types"
-	"github.com/hyperledger-labs/yui-relayer/core"
+	"github.com/neoiss/yui-relayer/core"
 )
 
 type Prover struct {
